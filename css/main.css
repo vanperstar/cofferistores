@@ -225,4 +225,104 @@ body{
 
 
 
+/* Block styles */
+
+
+.block{
+    padding: 40px 120px;
+}
+
+.block_title{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.block_line_right{
+    display: flex;
+    align-items: center;
+    border: none;
+    display: inline-block;
+    width: 380px;
+    height: 1px;
+    background-color:  #FDD6BA;
+}
+
+.block_line_left{
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 1px;
+    display: inline-block;
+    width: 380px;
+    background-color:  #FDD6BA;
+}
+
+.block_line_left::before{
+    content: "";
+    display: inline-block;
+    background: url(../img/Oval.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31px;
+    height: 31px;
+}
+
+.block_line_left::after{
+    display: inline-block;
+    content: "";
+    background: url(../img/Oval.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31px;
+    height: 31px;
+}
+.block_line_right::before{
+    content: "";
+    display: inline-block;
+    background: url(../img/Oval.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 31px;
+    height: 31px;
+}
+
+.block_items{
+    display: flex;
+    padding: 50px 0;
+}
+
+.block_item{
+    padding-right: 50px;
+}
+
+.block_item_number{
+    width: 90px;
+    height: 70px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.block_item_title{
+    padding: 42px 0;
+    width: 205px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.block_item_description{
+    width: 265px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+
+
 
