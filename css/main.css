@@ -34,5 +34,87 @@ body{
     padding: 0 30px;
 }
 
+/* Header styles */
 
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+
+}
+
+.nav_items{
+    display: flex;
+    list-style: none;
+}
+
+.nav_item{
+    margin: 50px 23px;
+}
+
+.nav_link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+
+
+/* Great styles */
+
+.great{
+    background: #A2A2A2;
+    width: 1200px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.grear_title{
+    padding: 60px 30px;
+    width: 493px;
+    height: 145px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.great_description{
+    padding: 60px 30px;
+    width: 385px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.great_link{
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #0E8784;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+
+
+/* Planalto styles */
+
+
+.planalto{
+    background: url(../img/bacground_img.png);
+}
 
