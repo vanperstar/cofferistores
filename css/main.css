@@ -113,7 +113,9 @@ body{
 
 
 .planalto{
-
+    background-image: url(../img/colections.png);
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
 .planalto_item{
@@ -352,10 +354,7 @@ body{
 }
 
 .footer_item_logo{
-    color: #FFFFFF;
-    padding-left:90px ;
-    width: 236px;
-    height: 26px;
+    
 }
 
 .footer_item{
