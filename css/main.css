@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url(../fonts/Catamaran-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Borlow';
+    src: url(../fonts/Catamaran-Bold.ttf);
+    font-weight: 400;
+}
+
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Catamaran';
+    font-size: 18px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+
+
